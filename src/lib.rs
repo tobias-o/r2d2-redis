@@ -4,6 +4,7 @@
 
 pub extern crate r2d2;
 pub extern crate redis;
+use redis::ConnectionLike;
 
 use std::error;
 use std::error::Error as _StdError;
